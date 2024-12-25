@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Поле для ввода текста"
-            android:textColor="@color/black"
+            android:textColor="#C32216"
             android:textSize="25sp" />
 
         <EditText
@@ -46,7 +46,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="ЗАКОДИРОВАТЬ"
+                android:textSize="25sp"
                 android:background="@drawable/zakodirovat"
+                android:textColor="#892C0F"
+
                 android:layout_margin="10dp"/>
 
             <Button
@@ -55,6 +58,8 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/razkodirovat"
                 android:layout_weight="1"
+                android:textColor="#892C0F"
+                android:textSize="25sp"
                 android:text="РАССКОДИРОВАТЬ"
                 android:layout_margin="10dp"/>
         </LinearLayout>
@@ -64,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ВЫВОД"
-            android:textColor="@color/black"
+            android:textColor="#C51919"
             android:textSize="25sp" />
 
         <EditText
